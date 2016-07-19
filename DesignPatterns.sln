@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPatterns.State", "StructuralPatterns\DesignPatterns.StructuralPatterns.State\DesignPatterns.StructuralPatterns.State.csproj", "{226B4E3E-9B79-44D8-AA60-1A9FC6910329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.BehavioralPatterns.Command", "BehavioralPatterns\DesignPatterns.BehavioralPatterns.Command\DesignPatterns.BehavioralPatterns.Command.csproj", "{4CFE6E24-1413-4329-9EA6-CC2430836CB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{226B4E3E-9B79-44D8-AA60-1A9FC6910329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{226B4E3E-9B79-44D8-AA60-1A9FC6910329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{226B4E3E-9B79-44D8-AA60-1A9FC6910329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFE6E24-1413-4329-9EA6-CC2430836CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFE6E24-1413-4329-9EA6-CC2430836CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFE6E24-1413-4329-9EA6-CC2430836CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFE6E24-1413-4329-9EA6-CC2430836CB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2260C0B8-DF6E-4A29-B8ED-B023EF1E513D} = {1A94EFB5-BC73-4636-8A0A-1117DCC4045F}
 		{226B4E3E-9B79-44D8-AA60-1A9FC6910329} = {7EE92FD7-044D-4A08-9C22-6F2B6467591C}
+		{4CFE6E24-1413-4329-9EA6-CC2430836CB6} = {204050F4-7FD2-49A1-A97C-78975A45B771}
 	EndGlobalSection
 EndGlobal
